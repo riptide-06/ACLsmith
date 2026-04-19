@@ -1,0 +1,46 @@
+:root {
+  /* ---- SOFTENED EDITORIAL PALETTE ----------------------------
+     Muted tomato-red (not fire-engine), warm near-black ink,
+     cream for body text on red, mustard for accents.              */
+
+  --bg:          #c2392a;   /* warm tomato — primary surface */
+  --bg-raised:   #a02a1d;   /* deeper tomato for raised cards */
+  --bg-sunken:   #74180f;   /* deepest well */
+  --bg-panel:    #141110;   /* near-black panels (app view, terminals) */
+
+  --border:      #141110;   /* hairlines — near-black */
+  --border-hi:   #1e1a18;   /* hover border */
+  --border-soft: rgba(20, 17, 16, 0.18);   /* soft overlay dividers on red */
+
+  /* Ink */
+  --ink:         #141110;   /* near-black (primary) */
+  --ink-dim:     #f2e3c6;   /* warm cream (body on red) */
+  --ink-faint:   #e8b95c;   /* dimmed mustard */
+  --ink-strong:  #000000;   /* true black — masthead only */
+
+  /* Accents — softer mustard instead of signal yellow */
+  --accent:      #f0c44b;   /* mustard */
+  --accent-dim:  #b58a2a;
+  --accent-cream:#faefd1;   /* cream highlight */
+
+  /* Role tokens */
+  --hero:        #141110;   /* primary CTA ink */
+  --warn:        #f0c44b;   /* mustard warn */
+  --crit:        #141110;   /* critical chip = near-black */
+  --link:        #1a3a6b;   /* deep blue for tool names */
+
+  --ease:        cubic-bezier(0.16, 1, 0.3, 1);
+
+  --font-mono:   'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-ui:     'Inter Tight', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+
+  /* Frame geometry — the "serious margins" the brief calls for */
+  --frame-pad:   48px;      /* outer margin on the page */
+  --frame-stroke: 3px;      /* outer frame thickness */
+  --grid-stroke: 1.5px;     /* inner grid line thickness */
+
+  /* Hazard stripe — used sparingly */
+  --hazard:       #f0c44b;
+  --hazard-dim:   #b58a2a;
+  --hazard-glow:  rgba(240, 196, 75, 0.18);
+}
