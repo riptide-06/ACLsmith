@@ -380,9 +380,7 @@ function buildSection6(): HTMLElement {
   const credit = el('p', 's6__credit');
   credit.innerHTML =
     'SYNTHESIS HACKS · UCSC · ' +
-    '<a href="#">@tarun_nayak</a>' +
-    ' · ' +
-    '<a href="https://github.com/">GITHUB</a>';
+    '<a href="https://github.com/riptide-06/ALCsmith">GITHUB</a>';
 
   inner.appendChild(headline);
   inner.appendChild(body);
